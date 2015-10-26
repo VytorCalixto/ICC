@@ -19,5 +19,5 @@ void pxDpx(double *p, int n, double x, double *px, double *dpx) {
     }
     b = p[0] + b*x;
     *px = b;
-    *dpx = c
+    *dpx = c;
 }
